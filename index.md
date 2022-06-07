@@ -1,6 +1,6 @@
 # Music Theory + JavaScript
 
-This tutorial demonstrates basic music concepts in JavaScript. All code on this page is MIT licensed. The source code [can be found here](https://github.com/ronyeh/music/tree/main). The source code for this website [can be found here](https://github.com/ronyeh/music/tree/gh-pages).
+This tutorial demonstrates basic music concepts in JavaScript. All code on this page is MIT licensed. The source code [can be found here](https://github.com/ronyeh/music).
 
 ## Note
 
@@ -8,14 +8,22 @@ A note is one tone played at a single pitch. When you strike a piano key, or plu
 
 Notes have letter names, like A, B, C, D, E, F, G.
 
+Using our JS library, you can learn the relationships between the notes:
+
 ```js
-alert('Hello World');
+showNote('A');
+
 ```
+
+Here's a fun website where you can explore notes: https://learningmusic.ableton.com/notes-and-scales/notes-and-scales.html
+
 
 ## Chord
 
 ```js
-alert('Hello World');
+showChord('C major');
+showChord('C major 1st inversion');
+showChord('A minor');
 ```
 
 
@@ -24,10 +32,14 @@ alert('Hello World');
 An interval is the distance between two notes.
 
 ```js
-alert('Hello World');
+showInterval('C', 'A');
 ```
 
 
 ### See
-* JS Piano
-* JS Guitar
+* [JS Piano](https://piano.js.org/)
+* [JS Guitar](https://guitar.js.org/)
+
+### More Resources
+* https://www.musictheory.net/lessons
+* https://www.youtube.com/playlist?list=PL1302D94F247600CD
