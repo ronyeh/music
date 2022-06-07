@@ -1,6 +1,6 @@
 # Music Theory + JavaScript
 
-This tutorial demonstrates basic music concepts in JavaScript. All code on this page is MIT licensed.
+This tutorial demonstrates basic music concepts in JavaScript. All code on this page is MIT licensed. The source code [can be found here](https://github.com/ronyeh/music/tree/main). The source code for this website [can be found here](https://github.com/ronyeh/music/tree/gh-pages).
 
 ## Note
 
