@@ -18,7 +18,7 @@ Notes have letter names, like A, B, C, D, E, F, G.
 
 Using our JS library, you can learn the relationships between the notes:
 
-```js
+```ts
 showNote('A');
 ```
 
@@ -27,26 +27,42 @@ Here's a fun website where you can explore notes: https://learningmusic.ableton.
 
 ## Chord
 
-```js
+```ts
 showChord('C major');
 showChord('C major 1st inversion');
 showChord('A minor');
 ```
 
-
 ## Interval
 
 An interval is the distance between two notes.
 
-```js
+```ts
 showInterval('C', 'A');
 ```
 
+## Staff
 
-### See
+A staff is a set of horizontal lines and spaces that represent music.
+
+Here is an example staff showing four chords to be played in sequence:
+
+![Staff](i/staff-000001.png)
+
+```ts
+let s = new Staff();
+s.addClef('treble');
+s.addChord('C4', 'F4', 'A4').withDuration(1/4);
+s.addChord('C4', 'E4', 'Bb4').withDuration(1/4);
+s.addChord('C4', 'E4', 'G4').withDuration(1/4);
+s.addChord('C4', 'F#4', 'A4').withDuration(1/4);
+showStaff(s);
+```
+
+## See
 * [JS Piano](https://piano.js.org/)
 * [JS Guitar](https://guitar.js.org/)
 
-### More Resources
+## More Resources
 * https://www.musictheory.net/lessons
 * https://www.youtube.com/playlist?list=PL1302D94F247600CD
