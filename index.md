@@ -1,6 +1,14 @@
 # Music Theory + JavaScript
 
-This tutorial demonstrates basic music concepts in JavaScript. All code on this page is MIT licensed. The source code [can be found here](https://github.com/ronyeh/music).
+This tutorial demonstrates basic music concepts in JavaScript. All code on this page is MIT licensed.
+
+To follow along, install the following package:
+
+```
+npm install go-music
+```
+
+The source code [can be found here](https://github.com/ronyeh/music).
 
 ## Note
 
@@ -12,7 +20,6 @@ Using our JS library, you can learn the relationships between the notes:
 
 ```js
 showNote('A');
-
 ```
 
 Here's a fun website where you can explore notes: https://learningmusic.ableton.com/notes-and-scales/notes-and-scales.html
