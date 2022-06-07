@@ -4,7 +4,9 @@ This tutorial demonstrates basic music concepts in JavaScript. All code on this 
 
 ## Note
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+A note is one tone played at a single pitch. When you strike a piano key, or pluck a guitar string, you are playing a note.
+
+Notes have letter names, like A, B, C, D, E, F, G.
 
 ```js
 alert('Hello World');
