@@ -6,7 +6,9 @@
     "main": "build/esm/index.js",
     "module": "build/esm/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "esbuild": "tsc --project tsconfig.cjs.json",
+        "tsbuild": "tsc --project tsconfig.esm.json",
+        "test": "jest"
     },
     "repository": {
         "type": "git",
@@ -21,7 +23,9 @@
         "url": "https://github.com/ronyeh/music/issues"
     },
     "homepage": "https://github.com/ronyeh/music#readme",
-    "dependencies": {
-        "esbuild": "^0.14.42"
+    "devDependencies": {
+        "esbuild": "^0.14.42",
+        "jest": "^28.1.1",
+        "ts-jest": "^28.0.4"
     }
 }
